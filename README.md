@@ -1,2 +1,2 @@
 # python_packaging
-This is a repository used whiling taking python packaging classes
+This is a repository used while taking python packaging classes
