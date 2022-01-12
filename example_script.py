@@ -1,4 +1,4 @@
-from impyrial.length.api import convert_unit
+import impyrial
 
-result = convert_unit(10, 'in', 'yd')
+result = impyrial.weight.convert_unit(2, 'lb', 'oz')
 print(result)
