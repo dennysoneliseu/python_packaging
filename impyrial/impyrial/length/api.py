@@ -1,11 +1,11 @@
 """User-facing functions."""
-#Import the check_units function
+# Import the check_units function
 
-from impyrial.utils import check_units
+# from impyrial.utils import check_units
 from impyrial.length.core import (
     inches_to_feet,
-    inches_to_yards,
-    UNITS
+    inches_to_yards  # ,
+    # UNITS
 )
 
 
