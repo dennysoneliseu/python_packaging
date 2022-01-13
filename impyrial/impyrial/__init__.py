@@ -1,8 +1,10 @@
-'''
+__doc__ = """
 impyrial
 ========
-A package for converting between imperial 
-measurements of length and weight.'''
+A package for converting between imperial measurments of length and weight.
+"""
 
+__author__ = """James Fulton"""
+__version__ = "0.1.0"
 from . import length
 from . import weight

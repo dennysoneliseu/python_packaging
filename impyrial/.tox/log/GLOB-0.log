@@ -1,0 +1,66 @@
+action: GLOB, msg: packaging
+cwd: C:\Users\denny\Documents\python_packaging\impyrial
+cmd: 'c:\users\denny\appdata\local\programs\python\python39\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing impyrial.egg-info\PKG-INFO
+writing dependency_links to impyrial.egg-info\dependency_links.txt
+writing requirements to impyrial.egg-info\requires.txt
+writing top-level names to impyrial.egg-info\top_level.txt
+reading manifest file 'impyrial.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'LICENSE'
+writing manifest file 'impyrial.egg-info\SOURCES.txt'
+running check
+warning: Check: missing required meta-data: url
+
+warning: Check: missing meta-data: if 'author' supplied, 'author_email' should be supplied too
+
+creating impyrial-0.1.0
+creating impyrial-0.1.0\impyrial
+creating impyrial-0.1.0\impyrial.egg-info
+creating impyrial-0.1.0\impyrial\length
+creating impyrial-0.1.0\impyrial\weight
+copying files to impyrial-0.1.0...
+copying MANIFEST.in -> impyrial-0.1.0
+copying README.md -> impyrial-0.1.0
+copying setup.py -> impyrial-0.1.0
+copying impyrial\__init__.py -> impyrial-0.1.0\impyrial
+copying impyrial\utils.py -> impyrial-0.1.0\impyrial
+copying impyrial.egg-info\PKG-INFO -> impyrial-0.1.0\impyrial.egg-info
+copying impyrial.egg-info\SOURCES.txt -> impyrial-0.1.0\impyrial.egg-info
+copying impyrial.egg-info\dependency_links.txt -> impyrial-0.1.0\impyrial.egg-info
+copying impyrial.egg-info\requires.txt -> impyrial-0.1.0\impyrial.egg-info
+copying impyrial.egg-info\top_level.txt -> impyrial-0.1.0\impyrial.egg-info
+copying impyrial\length\__init__.py -> impyrial-0.1.0\impyrial\length
+copying impyrial\length\api.py -> impyrial-0.1.0\impyrial\length
+copying impyrial\length\core.py -> impyrial-0.1.0\impyrial\length
+copying impyrial\weight\__init__.py -> impyrial-0.1.0\impyrial\weight
+copying impyrial\weight\api.py -> impyrial-0.1.0\impyrial\weight
+copying impyrial\weight\core.py -> impyrial-0.1.0\impyrial\weight
+Writing impyrial-0.1.0\setup.cfg
+creating '.tox\dist\impyrial-0.1.0.zip' and adding 'impyrial-0.1.0' to it
+adding 'impyrial-0.1.0'
+adding 'impyrial-0.1.0\impyrial'
+adding 'impyrial-0.1.0\impyrial.egg-info'
+adding 'impyrial-0.1.0\MANIFEST.in'
+adding 'impyrial-0.1.0\PKG-INFO'
+adding 'impyrial-0.1.0\README.md'
+adding 'impyrial-0.1.0\setup.cfg'
+adding 'impyrial-0.1.0\setup.py'
+adding 'impyrial-0.1.0\impyrial\length'
+adding 'impyrial-0.1.0\impyrial\weight'
+adding 'impyrial-0.1.0\impyrial\utils.py'
+adding 'impyrial-0.1.0\impyrial\__init__.py'
+adding 'impyrial-0.1.0\impyrial\length\api.py'
+adding 'impyrial-0.1.0\impyrial\length\core.py'
+adding 'impyrial-0.1.0\impyrial\length\__init__.py'
+adding 'impyrial-0.1.0\impyrial\weight\api.py'
+adding 'impyrial-0.1.0\impyrial\weight\core.py'
+adding 'impyrial-0.1.0\impyrial\weight\__init__.py'
+adding 'impyrial-0.1.0\impyrial.egg-info\dependency_links.txt'
+adding 'impyrial-0.1.0\impyrial.egg-info\PKG-INFO'
+adding 'impyrial-0.1.0\impyrial.egg-info\requires.txt'
+adding 'impyrial-0.1.0\impyrial.egg-info\SOURCES.txt'
+adding 'impyrial-0.1.0\impyrial.egg-info\top_level.txt'
+removing 'impyrial-0.1.0' (and everything under it)
